@@ -15,5 +15,6 @@ public class Solution {
             return minDepth(root.left) + 1;
         }
         return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+
     }
 }
