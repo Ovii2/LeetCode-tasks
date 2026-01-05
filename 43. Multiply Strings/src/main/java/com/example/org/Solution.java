@@ -1,0 +1,9 @@
+package com.example.org;
+
+import java.math.BigInteger;
+
+public class Solution {
+    public String multiply(String num1, String num2) {
+        return new BigInteger(num1).multiply(new BigInteger(num2)).toString();
+    }
+}
